@@ -104,7 +104,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://face-recognition-brain-back-end.onrender.com/image', {
+          fetch('https://bckendtest.onrender.com//image', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
